@@ -10,6 +10,8 @@ requires 'AnyEvent::IRC::Client';
 requires 'AnyEvent::MPRPC';
 requires 'JSON';
 
+readme_markdown_from_pod();
+
 author_tests('xt/');
 
 WriteAll;
